@@ -59,7 +59,15 @@ const useProjectOptionsImg = useImage('project-options', true);
                 :key="category"
                 class="badge rounded-pill bg-light text-capitalize mx-1"
             >
-                <img v-lazy="{ src: useProjectOptionsImg(`${category}.svg`) }" :alt="category" width="20" class="img-fluid">
+                <LazyImg
+                    :src="useProjectOptionsImg(`${category}.svg`)"
+                    :alt="category"
+                    :error="useImage('error.svg')"
+                    :error-size="20"
+                    :spinner-props="{ diameter: 10, translate: '-50% -10%' }"
+                    width="20"
+                    class="img-fluid"
+                />
             </span>
         </div>
         <div class="card-body pt-1">
