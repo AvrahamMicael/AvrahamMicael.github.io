@@ -1,0 +1,33 @@
+{
+  "name": "vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "sass": "node-sass src/assets/styles/main.scss src/assets/styles/main.css",
+    "watch:sass": "node-sass --watch src/assets/styles/main.s,css src/assets/styles/main.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.2.0-beta.40",
+    "vue3-lazyload": "^0.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.12",
+    "css-has-pseudo": "^4.0.1",
+    "postcss": "^8.4.18",
+    "postcss-load-config": "^4.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "push-dir": "^0.4.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-cli-plugin-i18n": "~2.3.1",
+    "vue-tsc": "^0.34.7"
+  }
+}

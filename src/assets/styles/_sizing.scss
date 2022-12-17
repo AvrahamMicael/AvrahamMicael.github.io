@@ -1,0 +1,25 @@
+.max-w-240
+{
+    max-width: 240px;
+}
+
+.min-w-180
+{
+    min-width: 180px;
+}
+
+.max-w-md-100p
+{
+    @media screen and (max-width: 768px)
+    {
+        max-width: 100% !important;
+    }
+}
+
+.max-w-xs_sm-200
+{
+    @media screen and (max-width: 576px)
+    {
+        max-width: 200px !important;
+    }
+}

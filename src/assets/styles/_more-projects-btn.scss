@@ -1,0 +1,47 @@
+button.more-projects-btn
+{
+    @extend #{
+        '.bg-dark',
+        '.text-center',
+        '.position-relative',
+        '.border-0',
+        '.rounded',
+    };
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -6px;
+    height: 25px;
+    width: 40%;
+    & > span.arrows
+    {
+        @extend #{
+            '.text-secondary',
+            '.d-inline-block',
+            '.position-relative',
+        };
+        scale: 2.3 1;
+        bottom: -2px;
+        &::before
+        {
+            content: '˅';
+            position: absolute;
+            top: -8px;
+        }
+        &::after
+        {
+            content: '˅';
+        }
+    }
+    &:hover > span.arrows
+    {
+        color: rgb(134, 142, 148) !important;
+    }
+    @media screen and (max-width: 992px) and (min-width: 768px)
+    {
+        margin-bottom: 70px;
+    }
+}
+
+
+

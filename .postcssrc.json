@@ -1,0 +1,8 @@
+{
+    "map": true,
+    "plugins": {
+        "autoprefixer": {},
+        "postcss-preset-env": {},
+        "css-has-pseudo": {}
+    }
+}

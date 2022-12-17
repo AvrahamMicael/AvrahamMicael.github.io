@@ -1,0 +1,9 @@
+@mixin box($width, $height: null)
+{
+    @if($height == null)
+    {
+        $height: $width;
+    }
+    width: $width * 1px;
+    height: $height * 1px;
+}

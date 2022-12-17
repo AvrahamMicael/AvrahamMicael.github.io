@@ -1,0 +1,12 @@
+$boxes: (
+    '300' 300 null,
+    '200-70' 200 70,
+);
+
+@each $name, $width, $height in $boxes
+{
+    .box-#{$name}
+    {
+        @include box($width, $height);
+    }
+}

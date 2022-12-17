@@ -1,0 +1,11 @@
+.vl
+{
+    @extend #{
+        '.rounded',
+        '.border-6',
+        '.border-secondary',
+        '.border-end',
+        '.h-100',
+        '.top-0',
+    };
+}

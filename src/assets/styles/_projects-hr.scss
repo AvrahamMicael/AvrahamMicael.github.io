@@ -1,0 +1,10 @@
+hr.projects-hr
+{
+    @extend #{
+        '.opaque',
+        '.border-top',
+        '.border-6',
+        '.border-secondary',
+        '.rounded',
+    };
+}

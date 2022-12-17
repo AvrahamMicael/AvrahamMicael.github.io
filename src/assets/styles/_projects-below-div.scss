@@ -1,0 +1,30 @@
+div.projects-below-div
+{
+    position: absolute;
+    top: calc(100% + 12px);
+    width: 99.75%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: transparent;
+    div.row
+    {
+        padding: 0 12px;
+        margin-bottom: 72px;
+    }
+    &:has(> .slide-enter-active)
+    {
+        z-index: -1;
+    }    
+    @media screen and (max-width: 992px) and (min-width: 768px)
+    {
+        width: 696px;
+        div.row
+        {
+            width: 696px;
+            position: relative;
+            left: -4.8px;
+        }
+    }
+}
+

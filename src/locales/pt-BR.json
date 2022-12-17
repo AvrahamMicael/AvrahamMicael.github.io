@@ -1,0 +1,99 @@
+{
+    "document-title": "Portfólio - Avraham Micael",
+    "nav": {
+        "Home": "Home",
+        "About": "Sobre",
+        "Projects": "Projetos",
+        "Contact": "Contato"
+    },
+    "home": {
+        "h2": "Olá, eu sou Avraham",
+        "p": "um desenvolvedor Web FullStack"
+    },
+    "about": {
+        "h2": "Sobre",
+        "p": [
+            "Meu nome é Avraham Micael Castro Siqueira, um desenvolvedor web 'self-taught'. Meu primeiro contato com a programação foi em 2019 no Ensino Médio, mas apenas neste ano que eu comecei a estudar seriamente.",
+            "Meu principal foco tem sido em desenvolvimento back-end, mas também tenho interesse no front-end."
+        ]
+    },
+    "projects": {
+        "h2": "Projetos",
+        "options": {
+            "all": "todos",
+            "js": "javaScript",
+            "vue": "vue",
+            "nuxt": "nuxt",
+            "laravel": "laravel",
+            "node": "node"
+        },
+        "view-github": "Ver no Github",
+        "multiplayer-snake": {
+            "description": "Versão multijogador do jogo da cobrinha.",
+            "content-text": [
+                "Feito com Socket.io e Node.js, este app permite até 8 jogadores numa sala onde podem competir entre si.",
+                "O jogador 1 deve criar um novo jogo e então o código da sala vai aparecer, depois os outros jogadores precisam usar o código para entrar na sala e começar o jogo.",
+                "Link no ar: <a href=\"https://avrahammicael.github.io/multiplayer-snake/\" target=\"_blank\">avrahammicael.github.io/multiplayer-snake</a>."
+            ]
+        },
+        "chatts": {
+            "description": "App de bate-papo baseado em salas.",
+            "content-text": [
+                "Aqui o usuário pode conversar com qualquer um que estiver na sala. Contudo, as mensagens não são salvas em nenhum banco de dados, então elas serão deletadas quando todos os usuários saírem da sala ou se o servidor fechar.",
+                "Link no ar: <a href=\"https://chatts.onrender.com\" target=\"_blank\">chatts.onrender.com</a>.",
+                "Feito com Express e Socket.io."
+            ]
+        },
+        "lingo": {
+            "description": "Site para aprendizado de idiomas que o usuário pode ver o significado da palavra no clique.",
+            "content-text": [
+                "Este app foi criado baseado no <a href=\"https://www.lingq.com/\" target=\"_blank\">Lingq</a>. Nele o usuário pode mandar lições que são basicamente só textos onde as palavras estão marcadas com 6 níveis de aquisição:",
+                "0: Desconhecida - azul",
+                "1: Nova - laranja",
+                "2: Reconhecida - laranja, 75% de opacidade",
+                "3: Familiar - laranja, 50% de opacidade",
+                "4: Aprendida - laranja, 25% de opacidade",
+                "5: Aprendida Completamente - transparente",
+                "Null: Removida pelo usuário - transparente",
+                "Por enquanto, o app tem suporte apenas para 4 idiomas: Latin, Inglês, Português e Espanhol.",
+                "Feito com Inertia.js para melhorar a experiência do usuário e diminuir a quantidade de carregamento de página."
+            ]
+        },
+        "blog": {
+            "description": "Um simples blog para um autor poder compartilhar seus pensamentos e notificar seus seguidores.",
+            "content-text": [
+                "Um blog simples feito com a intenção de aprender Vue.js, integrando com Laravel como back-end.",
+                "Ele carrega posts do servidor na página principal para o usuário, que pode então escolher o que o interessa, ler o post e comentários, que podem ser respondidos pelo autor ou por qualquer um. O usuário também pode se inscrever por email para receber notificações sobre novos posts. Enquanto isso, o autor pode publicar novos posts, editar ou deletá-los.",
+                "Com carregamento responsivo e outras características, este site dá uma boa experiência de usuário."
+            ]
+        },
+        "eCommerce": {
+            "description": "Um site onde o usuário pode buscar por produtos, adicioná-los ao carrinho, colocá-los na wishlist e comprá-los.",
+            "content-text": [
+                "Site simple feito para simular o processo de compra com Laravel e um pouco de Javascript",
+                "Na página principal, carrega os items mais comprados, se o usuário clicar em um deles, ele é redirecionado para a página do produto, onde ele pode adcioná=lo ao carrinho. Uma vez que o usuário tenha colocado todos os produtos desejados, ele pode ir para página de checkout, onde precisa se registrar ou fazer login para continuar. Preenchendo com suas informações básicas, o pedido é feito."
+            ]
+        },
+        "manga-site": {
+            "description": "Site onde o usuário pode ler, favoritar mangás e commentar sobre o capítulo que leram.",
+            "content-text": [
+                "Neste site, o usuário pode ler tudo livremente, mas ele precisa fazer login para comentar e favoritar mangas.",
+                "Usuários também podem criar Scanlators(grupo de pessoas que traduzem obras), que podem pedir do admin permissão para contribuírem com determinada obra que ainda não está sendo traduzida. Então eles podem editar, remover e lançar novos capítulos dos mangas que são responsáveis. O usuário que criou a Scanlator é o líder dela e pode convidar outros usuários a se juntarem a ele.",
+                "O admin tem a responsabilidade de adicionar novos mangas, mas ele também pode deletar comentários e Scanlators."
+            ]
+        }
+    },
+    "footer": {
+        "contact-email": "Email para Contato:",
+        "background-image": "Imagem de Background por",
+        "icons": [
+            "Ícones por",
+            "e"
+        ]
+    },
+    "functions": {
+        "copy-to-clipboard": {
+            "copied": "Texto copiado!"
+        }
+    }
+}

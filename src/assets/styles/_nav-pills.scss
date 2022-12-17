@@ -1,0 +1,10 @@
+.nav-pills .nav-link
+{
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    &.active
+    {
+        font-weight: 700;
+    }
+}

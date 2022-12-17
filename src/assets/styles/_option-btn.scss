@@ -1,0 +1,27 @@
+.option-btn
+{
+    @extend #{
+        '.badge',
+        '.rounded-pill',
+        '.bg-secondary',
+        '.mx-auto',
+        '.text-capitalize',
+        '.my-1',
+        '.text-decoration-none',
+        '.text-center',
+        '.link-light',
+    };
+    &.active,
+    &:hover
+    {
+        background-color: rgb(134, 142, 148) !important;
+    }
+
+    @media screen and (max-width: 1200px) and (min-width: 992px)
+    {
+        img[alt=javaScript-option] + span
+        {
+            font-size: 30px !important;
+        }
+    }
+}

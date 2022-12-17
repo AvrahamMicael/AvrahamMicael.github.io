@@ -1,0 +1,31 @@
+.project-card
+{
+    @extend #{
+        '.card',
+        '.bg-secondary',
+        '.min-w-180',
+        '.col-md-3',
+        '.mx-1',
+        '.mb-2',
+    };
+    &:hover
+    {
+        background-color: rgb(134, 142, 148) !important;
+    }
+}
+
+#projects > div.card
+{
+    margin-bottom: 70px;
+    @media screen and (max-width: 576px)
+    {
+        margin-bottom: 120px;
+    }
+    @media screen and (min-width: 992px)
+    {
+        & > div.card-body
+        {
+            min-width: 933.785px;
+        }
+    }
+}

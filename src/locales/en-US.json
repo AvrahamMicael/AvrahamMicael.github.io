@@ -1,0 +1,99 @@
+{
+    "document-title": "Portfolio - Avraham Micael",
+    "nav": {
+        "Home": "Home",
+        "About": "About",
+        "Projects": "Projects",
+        "Contact": "Contact"
+    },
+    "home": {
+        "h2": "Hi, I am Avraham",
+        "p": "a FullStack Web Developer"
+    },
+    "about": {
+        "h2": "About",
+        "p": [
+            "My name is Avraham Micael Castro Siqueira. I'm a self-taught web developer from Brazil. My first contact with code was in 2019 at highschool, but only this year I have started studying it seriously.",
+            "My main focus has mostly been on back-end development, but I'm also interested in front-end development."
+        ]
+    },
+    "projects": {
+        "h2": "Projects",
+        "options": {
+            "all": "all",
+            "js": "javaScript",
+            "vue": "vue",
+            "nuxt": "nuxt",
+            "laravel": "laravel",
+            "node": "node"
+        },
+        "view-github": "View on Github",
+        "multiplayer-snake": {
+            "description": "Multiplayer version of the Snake game.",
+            "content-text": [
+                "Made with Socket.io and Node.js, this app supports 8 players in the same room where they can compete with each other.",
+                "The first player must create a new game, then the room code will appear and the others players will need to use it to join the room and start the game.",
+                "Live link: <a href=\"https://avrahammicael.github.io/multiplayer-snake/\" target=\"_blank\">avrahammicael.github.io/multiplayer-snake</a>."
+            ]
+        },
+        "chatts": {
+            "description": "Room based chat app.",
+            "content-text": [
+                "Here the user can talk to anyone within a room. But the messages aren't stored in any database, then they will be deleted when every user leave the room or if the server close.",
+                "Live link: <a href=\"https://chatts.onrender.com\" target=\"_blank\">chatts.onrender.com</a>.",
+                "Made with Express and Socket.io."
+            ]
+        },
+        "lingo": {
+            "description": "Site for language learning where the user can get the word's meaning on click.",
+            "content-text": [
+                "This app was created based on <a href=\"https://www.lingq.com/\" target=\"_blank\">Lingq</a>. Here the user can upload lessons which are basically just text and their words are marked with 6 levels of acquisition:",
+                "0: Unknown - blue",
+                "1: New - orange",
+                "2: Recognized - orange, 75% opacity",
+                "3: Familiar - orange, 50% opacity",
+                "4: Learned - orange, 25% opacity",
+                "5: Fully Learned - transparent",
+                "Null: Removed by the user - transparent",
+                "For now, the app only supports 4 languages: Latin, English, Portuguese and Spanish.",
+                "Made with Inertia.js to improve the user experience and reduce the quantity of refreshes."
+            ]
+        },
+        "blog": {
+            "description": "Simple blog app for an author which can share their thoughts and notify followers.",
+            "content-text": [
+                "A simple blog made with the intention of learning Vue.js, integrating with Laravel as back-end.",
+                "It receives cached paginated posts from the server on Home to the user, which can choose what interest them, read the post and comments, which can be replied by the author or by anyone. The user also can subscribe via email to receive notifications about new posts in their inbox. Meanwhile, the author can post new posts, edit and delete them and remove other comments.",
+                "With responsive content loading and other features, this site gives a nice user experience."
+            ]
+        },
+        "eCommerce": {
+            "description": "A site where the user can look for products, add them to cart, wishlist and order them.",
+            "content-text": [
+                "Simple site made to simulate the purchase process with Laravel and a touch of Javascript.",
+                "On the home page, it loads the most purchased items. If the user click on any of them, they're redirect to the product's page, where they can add to the card. Once the user added all products they're interested in, they can go to the checkout where they need to register/login to proceed. With the basic user's information, the order proceeds."
+            ]
+        },
+        "manga-site": {
+            "description": "Site where a user can read, add mangas to favorites and comment on chapters.",
+            "content-text": [
+                "In this site, the user can read anything freely, but they need to login to comment and add favorite mangas.",
+                "Users can create Scanlators(group of people which translate works) as well, which can request from admin mangas that aren't with Scans. Then they can edit, remove and upload a manga's chapters. The user who created a Scanlator is the leader of it and can invite other users to join it and help translate mangas.",
+                "The admin is in charge of adding new mangas, but they can delete comments and Scanlators as well."
+            ]
+        }
+    },
+    "footer": {
+        "contact-email": "Contact Email:",
+        "background-image": "Background Image by",
+        "icons": [
+            "Icons by",
+            "and"
+        ]
+    },
+    "functions": {
+        "copy-to-clipboard": {
+            "copied": "Text copied!"
+        }
+    }
+}
