@@ -1,0 +1,22 @@
+noscript
+{
+  @extend #{
+    '.position-absolute',
+    '.vh-100',
+    '.vw-100',
+  };
+  & > div
+  {
+    @extend #{
+      '.d-flex',
+      '.justify-content-center',
+      '.align-items-center',
+      '.h-100',
+      '.w-100',
+    };
+    & > div
+    {
+      max-width: 600px;
+    }
+  }
+}
